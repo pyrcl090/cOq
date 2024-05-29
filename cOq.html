@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cOqtiphile</title>
+    <link rel="stylesheet" href="cOq.css">
+</head>
+<body>
+    <p class="filtered-1 menu">cOqtiphile</p>
+    <br>
+    <br>
+    <p class="filtered-1">L'œuf de cane salé (chinois traditionnel : 鹹鴨蛋 ou 鹹蛋, chinois simplifié : 鹹蛋, xian et Dan, tagalog : in Itlog na Maalat) est une recette chinoise et du sud-est asiatique (en climat tropical). L'œuf de cane salé est un œuf cru de cane ou de poule qui passe 3 semaines immergé dans une saumure de sel saturée (à laquelle on ajoute parfois de la cendre) avant d'être cuit 30 min dans l'eau bouillante et mangé froids. L'œuf salé demande un temps de cuisson assez long. Comme ils sont très salés, il est possible de les dessaler dans l'eau pendant quelques semaines après la cuisson108,109</p>
+    <br>
+    <br>
+    <br>
+    <table class="filtered-1">
+       
+        <tr>
+            <td><img src="./Soft-boiled-egg.jpg" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.01.png" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.19.png" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.28.png" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.47.png" alt=""></td>
+          </tr>
+        <tr>
+            <td>10 €</td>
+            <td>30 €</td>
+            <td>15 €</td>
+            <td>10 €</td>
+            <td>20 €</td>
+        </tr>
+        <tr>
+            <td>rc 1</td>
+            <td>n 1</td>
+            <td>d 1</td>
+            <td>d 2</td>
+            <td>rm 1</td>
+        </tr>
+        <tr>
+            <td><img src="./Soft-boiled-egg.jpg" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.01.png" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.19.png" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.28.png" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.47.png" alt=""></td>
+          </tr>
+        <tr>
+            <td>10 €</td>
+            <td>30 €</td>
+            <td>15 €</td>
+            <td>10 €</td>
+            <td>20 €</td>
+        </tr>
+        <tr>
+            <td>rc 1</td>
+            <td>n 1</td>
+            <td>d 1</td>
+            <td>d 2</td>
+            <td>rm 1</td>
+        </tr>
+        <tr>
+            <td><img src="./Soft-boiled-egg.jpg" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.01.png" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.19.png" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.28.png" alt=""></td>
+            <td><img src="./Screenshot 2024-05-29 at 17.20.47.png" alt=""></td>
+          </tr>
+        <tr>
+            <td>10 €</td>
+            <td>30 €</td>
+            <td>15 €</td>
+            <td>10 €</td>
+            <td>20 €</td>
+        </tr>
+        <tr>
+            <td>rc 1</td>
+            <td>n 1</td>
+            <td>d 1</td>
+            <td>d 2</td>
+            <td>rm 1</td>
+        </tr>
+        
+      </table>
+
+    <svg class="fixed inset-0 transform -translate-x-full">
+        <defs>
+            <filter id="n0">
+                <feTurbulence type="turbulence" baseFrequency="0.001 0.1" numOctaves="5" result="NOISE" ></feTurbulence>
+                <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="4.5"></feGaussianBlur>
+                <feDisplacementMap in2="NOISE" in="BLURRED" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+            </filter>
+            <filter id="n1">
+                <feTurbulence type="fractalNoise" baseFrequency="0.001 0.0001" numOctaves="5" result="NOISE" seed="1114"></feTurbulence>
+                <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
+                <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="40" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
+            </filter>
+            <filter id="n2" color-interpolation-filters="sRGB">
+                <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="NOISE" seed="12914"></feTurbulence>
+                <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
+                <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="27" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
+
+                <feColorMatrix in="DISPLACED"
+                    result="RED"
+                    type="matrix"
+                    values="0 1 0 0 0
+                            1 0 0 0 0
+                            0 0 1 0 0
+                            0 0 0 1 0" />
+                            
+                <feColorMatrix in="DISPLACED"
+                    result="GREEN"
+                    type="matrix"
+                    values="1 0 0 0 0
+                            0 0 1 1 0
+                            0 0 1 1 1
+                            0 0 0 1 0" />
+                
+                <feColorMatrix in="DISPLACED"
+                    result="BLUE"
+                    type="matrix"
+                    values="1 1 1 0 0
+                            0 0 1 0 0
+                            0 0 1 0 0
+                            0 0 0 1 0" />
+                            
+                <feOffset in="RED" dx="-1" dy="0" result="D_RED" />
+                <feOffset in="GREEN" dx="0" dy="0" result="D_GREEN" />
+                <feOffset in="BLUE" dx="2" dy="0" result="D_BLUE" />
+
+                <feBlend in="D_RED" in2="D_BLUE" out="RB" mode="multiply"/>
+
+                
+            </filter>
+        </defs>
+    </svg>
+    <script src="cOq.js" async defer></script>
+
+
+</body>
+</html>
