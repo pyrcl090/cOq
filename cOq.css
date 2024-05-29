@@ -36,7 +36,12 @@ body.filtered-1 {
 span:hover{
     color: rgb(62, 32, 12);
 }
+p.body-1{
+    margin: 4vw;
+}
 p.menu{
+    font-size: 1.7rem;
+    line-height: 1.6rem;
     position: fixed;
     margin: 0%;
     padding: 0%;
