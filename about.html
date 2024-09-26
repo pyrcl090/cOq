@@ -8,25 +8,31 @@
 </head>
 <body>
     <header>
-        <p class="coquille-0 menu"><span>cOq</span> &nbsp; <span class="c">about</span> &nbsp; <span >collections</span> &nbsp; <span >workshops</span> <a href=""></a></p>
+        <p class="coquille-0 menu">
+            <span class="workshops large"><a href="workshops.html">cOq</a></span> &nbsp; 
+            <span class="about"><a class=" select" href="about.html">about</a></span>&thinsp; 
+            <span class="collections"><a href="collections.html">collections</a></span>&thinsp;  
+            
+        </p>
     </header>
 
     <main class="coquille-0 main-body">
         <section id="csOsc-capsule" data-project="csOsc" data-year="2024">
             <header class="capsule-info">
+            
                 <figure>
-                    <!-- <p class="text"> <span>oct 23 2024</span> <br><figcaption> "corps sans Organes sans corps" </figcaption> </p>
-                    <p class="text"> <span>jun 11 2024</span> <br><figcaption> "angel's egg" </figcaption> </p>
-                    <p class="text"> <span>apr 04 2024</span> <br><figcaption> "jajko" </figcaption> </p>
-                    <p class="text"> <span>jan 01 2024</span> <br><figcaption> "cOqtiphile" </figcaption> </p>
-                    <p class="text"></p> -->
-                    <p class="text"> <span>cOquetiphile</span> <br><figcaption>a passionate collectioner of coquetiers (egg cups) </figcaption> </p>
-                    <p class="text">I guess i could be described as such, but an amateur version, as my collection is not as developped as others who have adopted this title for themselves. <br><br> This project is a an exploration of the coquetier, and by extension the egg(s) for which it is made and the people who eat them.</p>
+                    <p class="text"> <span>cOquetiphile</span> <br><figcaption class="center">a passionate collectioner of coquetiers (egg cups) </figcaption> </p>
+                    <p class="text small">this project is a an exploration of the coquetier,<br> in all its possibility.<br> an open exploration of enjoyment,<br> obssession,<br> collecting,<br> and making in all its simplicities and complexities.</p>
                 </figure>
-            </header>
-            <div class="imgs-grid">
+                <br><br>
+                <br>
+                <figure>
+                    <p class="text">to purchase a cOquetier or ask a question please dm or email<figcaption class="right"><a href="https://www.instagram.com/c0quetiphile?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@cOquetiphile</a> <br>coquetiphile@gmail.com</figcaption> </p>
+                    <p class="text"></p>
+                </figure>
                
-            </div>
+                
+            </header>
         </section>
 
     </main>
@@ -34,17 +40,17 @@
 
     <svg class="fixed inset-0 transform -translate-x-full">
         <defs>
-            <filter id="n0">
+            <filter id="f0">
                 <feTurbulence type="turbulence" baseFrequency="0.001 0.1" numOctaves="5" result="NOISE" ></feTurbulence>
                 <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="4.5"></feGaussianBlur>
                 <feDisplacementMap in2="NOISE" in="BLURRED" scale="30" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
             </filter>
-            <filter id="n1">
+            <filter id="f1">
                 <feTurbulence type="fractalNoise" baseFrequency="0.001 0.0001" numOctaves="5" result="NOISE" seed="11144411"></feTurbulence>
                 <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
                 <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="40" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
             </filter>
-            <filter id="n2" color-interpolation-filters="sRGB">
+            <filter id="f2" color-interpolation-filters="sRGB">
                 <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="NOISE" seed="12914"></feTurbulence>
                 <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
                 <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="27" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
