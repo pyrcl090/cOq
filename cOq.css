@@ -63,9 +63,6 @@ img{
     max-width: 15rem;
     
 }
-img:hover{
-    
-}
 img.big{
     max-width: 30rem;
     margin-left: 32vw;
