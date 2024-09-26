@@ -42,10 +42,7 @@ body.coquille-0 {
 span:hover{
     color: rgb(62, 32, 12);
 }
-.large{
-    font-size: 1.7rem;
-    line-height: 1.8rem; 
-}
+
 p.menu{
     position: fixed;
     margin: 0%;
