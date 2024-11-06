@@ -1,9 +1,7 @@
-let cOq = document.querySelector(".cOq");
-let about = document.querySelector(".about");
-let collections = document.querySelector(".collections");
-let workshops = document.querySelector(".workshops");
-let body = document.querySelector("body");
+let c1 = document.getElementById("c1-collection1");
+let c1c = document.getElementById("c1-contents");
 
-// body.addEventListener("click", function(){
-//     body.classList.add(".coquille-1");   
-// })
+
+c1.addEventListener("click", function(){
+    c1c.style.display="display";   
+})
