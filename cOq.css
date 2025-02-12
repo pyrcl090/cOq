@@ -48,6 +48,7 @@ p.menu{
     position: fixed;
     margin: 0%;
     padding: 0%;
+    padding-right: 3%;
     top: 1.5rem;
     left: 1.8rem;
     z-index: 3;
